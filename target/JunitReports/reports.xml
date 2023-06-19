@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="54.184">
+    <testcase classname="Search for Books on Maltapark" name="Search for a specific book on Maltapark" time="54.009">
+        <system-out><![CDATA[Given I am on the Maltapark website.........................................passed
+When I click on the "All Classifieds" dropdown..............................passed
+And I select "Books" from the dropdown......................................passed
+And I enter "Computer" in the search area...................................passed
+And I click the search button...............................................passed
+Then I should see the description and price of the first item in the list...passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-06-19T06:54:44.781Z",
+        "line": 3,
+        "name": "Search for a specific book on Maltapark",
+        "description": "",
+        "id": "search-for-books-on-maltapark;search-for-a-specific-book-on-maltapark",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53869311000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the Maltapark website",
+            "match": {
+              "location": "StepDefinitions.SearchBooks.i_am_on_the_maltapark_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88789800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the \"All Classifieds\" dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All Classifieds\"",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitions.SearchBooks.i_click_on_the_dropdown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I select \"Books\" from the dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Books\"",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefinitions.SearchBooks.i_select_from_the_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1064900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter \"Computer\" in the search area",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Computer\"",
+                  "offset": 8
+                }
+              ],
+              "location": "StepDefinitions.SearchBooks.i_enter_in_the_search_area(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1008500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click the search button",
+            "match": {
+              "location": "StepDefinitions.SearchBooks.i_click_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see the description and price of the first item in the list",
+            "match": {
+              "location": "StepDefinitions.SearchBooks.i_should_see_the_description_and_price_of_the_first_item_in_the_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search for Books on Maltapark",
+    "description": "",
+    "id": "search-for-books-on-maltapark",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SearchBooks.feature",
+    "tags": []
+  }
+]
